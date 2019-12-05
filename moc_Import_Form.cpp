@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Import_Form_t {
-    QByteArrayData data[47];
-    char stringdata0[687];
+    QByteArrayData data[49];
+    char stringdata0[713];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -51,34 +51,36 @@ QT_MOC_LITERAL(15, 152, 9), // "crud_list"
 QT_MOC_LITERAL(16, 162, 8), // "OldDbZk*"
 QT_MOC_LITERAL(17, 171, 2), // "zk"
 QT_MOC_LITERAL(18, 174, 15), // "compare_dump_db"
-QT_MOC_LITERAL(19, 190, 22), // "on_pb_save_import_slot"
-QT_MOC_LITERAL(20, 213, 3), // "str"
-QT_MOC_LITERAL(21, 217, 10), // "closeEvent"
-QT_MOC_LITERAL(22, 228, 12), // "QCloseEvent*"
-QT_MOC_LITERAL(23, 241, 5), // "event"
-QT_MOC_LITERAL(24, 247, 27), // "recieve_updated_import_crud"
-QT_MOC_LITERAL(25, 275, 6), // "new_cr"
-QT_MOC_LITERAL(26, 282, 25), // "recieve_added_import_crud"
-QT_MOC_LITERAL(27, 308, 9), // "add_to_db"
-QT_MOC_LITERAL(28, 318, 19), // "prepare_main_to_add"
-QT_MOC_LITERAL(29, 338, 9), // "main_crud"
-QT_MOC_LITERAL(30, 348, 10), // "added_crud"
-QT_MOC_LITERAL(31, 359, 28), // "on_tableView_crud_pg_clicked"
-QT_MOC_LITERAL(32, 388, 11), // "QModelIndex"
-QT_MOC_LITERAL(33, 400, 5), // "index"
-QT_MOC_LITERAL(34, 406, 12), // "clear_models"
-QT_MOC_LITERAL(35, 419, 11), // "clear_label"
-QT_MOC_LITERAL(36, 431, 25), // "on_pb_save_import_clicked"
-QT_MOC_LITERAL(37, 457, 23), // "on_pb_save_main_clicked"
-QT_MOC_LITERAL(38, 481, 25), // "on_pb_skip_import_clicked"
-QT_MOC_LITERAL(39, 507, 22), // "on_pb_skip_All_clicked"
-QT_MOC_LITERAL(40, 530, 30), // "on_pb_update_import_zk_clicked"
-QT_MOC_LITERAL(41, 561, 23), // "on_pb_update_pg_clicked"
-QT_MOC_LITERAL(42, 585, 21), // "on_pushButton_clicked"
-QT_MOC_LITERAL(43, 607, 17), // "make_link_clicked"
-QT_MOC_LITERAL(44, 625, 21), // "begin_work_with_links"
-QT_MOC_LITERAL(45, 647, 17), // "abort_link_import"
-QT_MOC_LITERAL(46, 665, 21) // "import_list_with_link"
+QT_MOC_LITERAL(19, 190, 12), // "compare_of_t"
+QT_MOC_LITERAL(20, 203, 12), // "Import_state"
+QT_MOC_LITERAL(21, 216, 22), // "on_pb_save_import_slot"
+QT_MOC_LITERAL(22, 239, 3), // "str"
+QT_MOC_LITERAL(23, 243, 10), // "closeEvent"
+QT_MOC_LITERAL(24, 254, 12), // "QCloseEvent*"
+QT_MOC_LITERAL(25, 267, 5), // "event"
+QT_MOC_LITERAL(26, 273, 27), // "recieve_updated_import_crud"
+QT_MOC_LITERAL(27, 301, 6), // "new_cr"
+QT_MOC_LITERAL(28, 308, 25), // "recieve_added_import_crud"
+QT_MOC_LITERAL(29, 334, 9), // "add_to_db"
+QT_MOC_LITERAL(30, 344, 19), // "prepare_main_to_add"
+QT_MOC_LITERAL(31, 364, 9), // "main_crud"
+QT_MOC_LITERAL(32, 374, 10), // "added_crud"
+QT_MOC_LITERAL(33, 385, 28), // "on_tableView_crud_pg_clicked"
+QT_MOC_LITERAL(34, 414, 11), // "QModelIndex"
+QT_MOC_LITERAL(35, 426, 5), // "index"
+QT_MOC_LITERAL(36, 432, 12), // "clear_models"
+QT_MOC_LITERAL(37, 445, 11), // "clear_label"
+QT_MOC_LITERAL(38, 457, 25), // "on_pb_save_import_clicked"
+QT_MOC_LITERAL(39, 483, 23), // "on_pb_save_main_clicked"
+QT_MOC_LITERAL(40, 507, 25), // "on_pb_skip_import_clicked"
+QT_MOC_LITERAL(41, 533, 22), // "on_pb_skip_All_clicked"
+QT_MOC_LITERAL(42, 556, 30), // "on_pb_update_import_zk_clicked"
+QT_MOC_LITERAL(43, 587, 23), // "on_pb_update_pg_clicked"
+QT_MOC_LITERAL(44, 611, 21), // "on_pushButton_clicked"
+QT_MOC_LITERAL(45, 633, 17), // "make_link_clicked"
+QT_MOC_LITERAL(46, 651, 21), // "begin_work_with_links"
+QT_MOC_LITERAL(47, 673, 17), // "abort_link_import"
+QT_MOC_LITERAL(48, 691, 21) // "import_list_with_link"
 
     },
     "Import_Form\0Refresh_tab\0\0Send_data\0"
@@ -86,14 +88,14 @@ QT_MOC_LITERAL(46, 665, 21) // "import_list_with_link"
     "accepted\0rejected\0testHeadFile\0"
     "QByteArray*\0arr\0switch_zk_to_crud\0"
     "QList<Crud*>*\0crud_list\0OldDbZk*\0zk\0"
-    "compare_dump_db\0on_pb_save_import_slot\0"
-    "str\0closeEvent\0QCloseEvent*\0event\0"
-    "recieve_updated_import_crud\0new_cr\0"
-    "recieve_added_import_crud\0add_to_db\0"
-    "prepare_main_to_add\0main_crud\0added_crud\0"
-    "on_tableView_crud_pg_clicked\0QModelIndex\0"
-    "index\0clear_models\0clear_label\0"
-    "on_pb_save_import_clicked\0"
+    "compare_dump_db\0compare_of_t\0Import_state\0"
+    "on_pb_save_import_slot\0str\0closeEvent\0"
+    "QCloseEvent*\0event\0recieve_updated_import_crud\0"
+    "new_cr\0recieve_added_import_crud\0"
+    "add_to_db\0prepare_main_to_add\0main_crud\0"
+    "added_crud\0on_tableView_crud_pg_clicked\0"
+    "QModelIndex\0index\0clear_models\0"
+    "clear_label\0on_pb_save_import_clicked\0"
     "on_pb_save_main_clicked\0"
     "on_pb_skip_import_clicked\0"
     "on_pb_skip_All_clicked\0"
@@ -110,7 +112,7 @@ static const uint qt_meta_data_Import_Form[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-      29,   14, // methods
+      30,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -118,37 +120,38 @@ static const uint qt_meta_data_Import_Form[] = {
        6,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,  159,    2, 0x06 /* Public */,
-       3,    1,  160,    2, 0x06 /* Public */,
-       6,    1,  163,    2, 0x06 /* Public */,
-       7,    1,  166,    2, 0x06 /* Public */,
-       8,    0,  169,    2, 0x06 /* Public */,
-       9,    0,  170,    2, 0x06 /* Public */,
+       1,    0,  164,    2, 0x06 /* Public */,
+       3,    1,  165,    2, 0x06 /* Public */,
+       6,    1,  168,    2, 0x06 /* Public */,
+       7,    1,  171,    2, 0x06 /* Public */,
+       8,    0,  174,    2, 0x06 /* Public */,
+       9,    0,  175,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      10,    1,  171,    2, 0x08 /* Private */,
-      13,    2,  174,    2, 0x08 /* Private */,
-      18,    0,  179,    2, 0x08 /* Private */,
-      19,    1,  180,    2, 0x08 /* Private */,
-      21,    1,  183,    2, 0x08 /* Private */,
-      24,    1,  186,    2, 0x08 /* Private */,
-      26,    1,  189,    2, 0x08 /* Private */,
-      27,    0,  192,    2, 0x08 /* Private */,
-      28,    2,  193,    2, 0x08 /* Private */,
-      31,    1,  198,    2, 0x08 /* Private */,
-      34,    0,  201,    2, 0x08 /* Private */,
-      35,    0,  202,    2, 0x08 /* Private */,
-      36,    0,  203,    2, 0x08 /* Private */,
-      37,    0,  204,    2, 0x08 /* Private */,
-      38,    0,  205,    2, 0x08 /* Private */,
-      39,    0,  206,    2, 0x08 /* Private */,
-      40,    0,  207,    2, 0x08 /* Private */,
-      41,    0,  208,    2, 0x08 /* Private */,
-      42,    0,  209,    2, 0x08 /* Private */,
-      43,    0,  210,    2, 0x08 /* Private */,
-      44,    0,  211,    2, 0x08 /* Private */,
-      45,    0,  212,    2, 0x08 /* Private */,
-      46,    0,  213,    2, 0x08 /* Private */,
+      10,    1,  176,    2, 0x08 /* Private */,
+      13,    2,  179,    2, 0x08 /* Private */,
+      18,    0,  184,    2, 0x08 /* Private */,
+      19,    0,  185,    2, 0x08 /* Private */,
+      21,    1,  186,    2, 0x08 /* Private */,
+      23,    1,  189,    2, 0x08 /* Private */,
+      26,    1,  192,    2, 0x08 /* Private */,
+      28,    1,  195,    2, 0x08 /* Private */,
+      29,    0,  198,    2, 0x08 /* Private */,
+      30,    2,  199,    2, 0x08 /* Private */,
+      33,    1,  204,    2, 0x08 /* Private */,
+      36,    0,  207,    2, 0x08 /* Private */,
+      37,    0,  208,    2, 0x08 /* Private */,
+      38,    0,  209,    2, 0x08 /* Private */,
+      39,    0,  210,    2, 0x08 /* Private */,
+      40,    0,  211,    2, 0x08 /* Private */,
+      41,    0,  212,    2, 0x08 /* Private */,
+      42,    0,  213,    2, 0x08 /* Private */,
+      43,    0,  214,    2, 0x08 /* Private */,
+      44,    0,  215,    2, 0x08 /* Private */,
+      45,    0,  216,    2, 0x08 /* Private */,
+      46,    0,  217,    2, 0x08 /* Private */,
+      47,    0,  218,    2, 0x08 /* Private */,
+      48,    0,  219,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void,
@@ -162,13 +165,14 @@ static const uint qt_meta_data_Import_Form[] = {
     QMetaType::Bool, 0x80000000 | 11,   12,
     QMetaType::Void, 0x80000000 | 14, 0x80000000 | 16,   15,   17,
     QMetaType::Bool,
-    QMetaType::Void, QMetaType::QString,   20,
-    QMetaType::Void, 0x80000000 | 22,   23,
-    QMetaType::Void, 0x80000000 | 4,   25,
-    QMetaType::Void, 0x80000000 | 4,   25,
+    0x80000000 | 20,
+    QMetaType::Void, QMetaType::QString,   22,
+    QMetaType::Void, 0x80000000 | 24,   25,
+    QMetaType::Void, 0x80000000 | 4,   27,
+    QMetaType::Void, 0x80000000 | 4,   27,
     QMetaType::Bool,
-    QMetaType::Void, 0x80000000 | 4, 0x80000000 | 4,   29,   30,
-    QMetaType::Void, 0x80000000 | 32,   33,
+    QMetaType::Void, 0x80000000 | 4, 0x80000000 | 4,   31,   32,
+    QMetaType::Void, 0x80000000 | 34,   35,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -203,27 +207,29 @@ void Import_Form::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 7: _t->switch_zk_to_crud((*reinterpret_cast< QList<Crud*>*(*)>(_a[1])),(*reinterpret_cast< OldDbZk*(*)>(_a[2]))); break;
         case 8: { bool _r = _t->compare_dump_db();
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
-        case 9: _t->on_pb_save_import_slot((*reinterpret_cast< QString(*)>(_a[1]))); break;
-        case 10: _t->closeEvent((*reinterpret_cast< QCloseEvent*(*)>(_a[1]))); break;
-        case 11: _t->recieve_updated_import_crud((*reinterpret_cast< Crud*(*)>(_a[1]))); break;
-        case 12: _t->recieve_added_import_crud((*reinterpret_cast< Crud*(*)>(_a[1]))); break;
-        case 13: { bool _r = _t->add_to_db();
+        case 9: { Import_state _r = _t->compare_of_t();
+            if (_a[0]) *reinterpret_cast< Import_state*>(_a[0]) = std::move(_r); }  break;
+        case 10: _t->on_pb_save_import_slot((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 11: _t->closeEvent((*reinterpret_cast< QCloseEvent*(*)>(_a[1]))); break;
+        case 12: _t->recieve_updated_import_crud((*reinterpret_cast< Crud*(*)>(_a[1]))); break;
+        case 13: _t->recieve_added_import_crud((*reinterpret_cast< Crud*(*)>(_a[1]))); break;
+        case 14: { bool _r = _t->add_to_db();
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
-        case 14: _t->prepare_main_to_add((*reinterpret_cast< Crud*(*)>(_a[1])),(*reinterpret_cast< Crud*(*)>(_a[2]))); break;
-        case 15: _t->on_tableView_crud_pg_clicked((*reinterpret_cast< const QModelIndex(*)>(_a[1]))); break;
-        case 16: _t->clear_models(); break;
-        case 17: _t->clear_label(); break;
-        case 18: _t->on_pb_save_import_clicked(); break;
-        case 19: _t->on_pb_save_main_clicked(); break;
-        case 20: _t->on_pb_skip_import_clicked(); break;
-        case 21: _t->on_pb_skip_All_clicked(); break;
-        case 22: _t->on_pb_update_import_zk_clicked(); break;
-        case 23: _t->on_pb_update_pg_clicked(); break;
-        case 24: _t->on_pushButton_clicked(); break;
-        case 25: _t->make_link_clicked(); break;
-        case 26: _t->begin_work_with_links(); break;
-        case 27: _t->abort_link_import(); break;
-        case 28: _t->import_list_with_link(); break;
+        case 15: _t->prepare_main_to_add((*reinterpret_cast< Crud*(*)>(_a[1])),(*reinterpret_cast< Crud*(*)>(_a[2]))); break;
+        case 16: _t->on_tableView_crud_pg_clicked((*reinterpret_cast< const QModelIndex(*)>(_a[1]))); break;
+        case 17: _t->clear_models(); break;
+        case 18: _t->clear_label(); break;
+        case 19: _t->on_pb_save_import_clicked(); break;
+        case 20: _t->on_pb_save_main_clicked(); break;
+        case 21: _t->on_pb_skip_import_clicked(); break;
+        case 22: _t->on_pb_skip_All_clicked(); break;
+        case 23: _t->on_pb_update_import_zk_clicked(); break;
+        case 24: _t->on_pb_update_pg_clicked(); break;
+        case 25: _t->on_pushButton_clicked(); break;
+        case 26: _t->make_link_clicked(); break;
+        case 27: _t->begin_work_with_links(); break;
+        case 28: _t->abort_link_import(); break;
+        case 29: _t->import_list_with_link(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -298,13 +304,13 @@ int Import_Form::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 29)
+        if (_id < 30)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 29;
+        _id -= 30;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 29)
+        if (_id < 30)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 29;
+        _id -= 30;
     }
     return _id;
 }

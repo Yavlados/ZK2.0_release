@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Component_t {
-    QByteArrayData data[27];
-    char stringdata0[372];
+    QByteArrayData data[26];
+    char stringdata0[333];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -46,30 +46,29 @@ QT_MOC_LITERAL(11, 100, 10), // "closeEvent"
 QT_MOC_LITERAL(12, 111, 12), // "QCloseEvent*"
 QT_MOC_LITERAL(13, 124, 5), // "event"
 QT_MOC_LITERAL(14, 130, 14), // "change_layouts"
-QT_MOC_LITERAL(15, 145, 23), // "on_le_1_editingFinished"
-QT_MOC_LITERAL(16, 169, 23), // "on_le_2_editingFinished"
-QT_MOC_LITERAL(17, 193, 23), // "on_le_3_editingFinished"
-QT_MOC_LITERAL(18, 217, 23), // "on_le_4_editingFinished"
-QT_MOC_LITERAL(19, 241, 18), // "on_le_1_textEdited"
-QT_MOC_LITERAL(20, 260, 4), // "arg1"
-QT_MOC_LITERAL(21, 265, 17), // "on_cb_m_n_toggled"
-QT_MOC_LITERAL(22, 283, 7), // "checked"
-QT_MOC_LITERAL(23, 291, 20), // "on_pb_cancel_clicked"
-QT_MOC_LITERAL(24, 312, 20), // "on_cb_oldnum_toggled"
-QT_MOC_LITERAL(25, 333, 16), // "on_pb_ok_clicked"
-QT_MOC_LITERAL(26, 350, 21) // "on_le_1_inputRejected"
+QT_MOC_LITERAL(15, 145, 18), // "on_le_1_textEdited"
+QT_MOC_LITERAL(16, 164, 4), // "arg1"
+QT_MOC_LITERAL(17, 169, 18), // "on_le_2_textEdited"
+QT_MOC_LITERAL(18, 188, 18), // "on_le_3_textEdited"
+QT_MOC_LITERAL(19, 207, 18), // "on_le_4_textEdited"
+QT_MOC_LITERAL(20, 226, 17), // "on_cb_m_n_toggled"
+QT_MOC_LITERAL(21, 244, 7), // "checked"
+QT_MOC_LITERAL(22, 252, 20), // "on_pb_cancel_clicked"
+QT_MOC_LITERAL(23, 273, 20), // "on_cb_oldnum_toggled"
+QT_MOC_LITERAL(24, 294, 16), // "on_pb_ok_clicked"
+QT_MOC_LITERAL(25, 311, 21) // "on_le_1_inputRejected"
 
     },
     "Component\0set_input_mask\0\0set_type\0"
     "component_type\0c_t\0set_index_data\0"
     "Owners_tel*\0ow_t\0Contacts*\0cnt\0"
     "closeEvent\0QCloseEvent*\0event\0"
-    "change_layouts\0on_le_1_editingFinished\0"
-    "on_le_2_editingFinished\0on_le_3_editingFinished\0"
-    "on_le_4_editingFinished\0on_le_1_textEdited\0"
-    "arg1\0on_cb_m_n_toggled\0checked\0"
-    "on_pb_cancel_clicked\0on_cb_oldnum_toggled\0"
-    "on_pb_ok_clicked\0on_le_1_inputRejected"
+    "change_layouts\0on_le_1_textEdited\0"
+    "arg1\0on_le_2_textEdited\0on_le_3_textEdited\0"
+    "on_le_4_textEdited\0on_cb_m_n_toggled\0"
+    "checked\0on_pb_cancel_clicked\0"
+    "on_cb_oldnum_toggled\0on_pb_ok_clicked\0"
+    "on_le_1_inputRejected"
 };
 #undef QT_MOC_LITERAL
 
@@ -79,7 +78,7 @@ static const uint qt_meta_data_Component[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-      17,   14, // methods
+      16,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -87,23 +86,22 @@ static const uint qt_meta_data_Component[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   99,    2, 0x0a /* Public */,
-       3,    1,  100,    2, 0x0a /* Public */,
-       6,    2,  103,    2, 0x0a /* Public */,
-       6,    1,  108,    2, 0x2a /* Public | MethodCloned */,
-       6,    0,  111,    2, 0x2a /* Public | MethodCloned */,
-      11,    1,  112,    2, 0x0a /* Public */,
-      14,    0,  115,    2, 0x0a /* Public */,
-      15,    0,  116,    2, 0x08 /* Private */,
-      16,    0,  117,    2, 0x08 /* Private */,
-      17,    0,  118,    2, 0x08 /* Private */,
-      18,    0,  119,    2, 0x08 /* Private */,
+       1,    0,   94,    2, 0x0a /* Public */,
+       3,    1,   95,    2, 0x0a /* Public */,
+       6,    2,   98,    2, 0x0a /* Public */,
+       6,    1,  103,    2, 0x2a /* Public | MethodCloned */,
+       6,    0,  106,    2, 0x2a /* Public | MethodCloned */,
+      11,    1,  107,    2, 0x0a /* Public */,
+      14,    0,  110,    2, 0x0a /* Public */,
+      15,    1,  111,    2, 0x08 /* Private */,
+      17,    1,  114,    2, 0x08 /* Private */,
+      18,    1,  117,    2, 0x08 /* Private */,
       19,    1,  120,    2, 0x08 /* Private */,
-      21,    1,  123,    2, 0x08 /* Private */,
-      23,    0,  126,    2, 0x08 /* Private */,
-      24,    1,  127,    2, 0x08 /* Private */,
-      25,    0,  130,    2, 0x08 /* Private */,
-      26,    0,  131,    2, 0x08 /* Private */,
+      20,    1,  123,    2, 0x08 /* Private */,
+      22,    0,  126,    2, 0x08 /* Private */,
+      23,    1,  127,    2, 0x08 /* Private */,
+      24,    0,  130,    2, 0x08 /* Private */,
+      25,    0,  131,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -113,14 +111,13 @@ static const uint qt_meta_data_Component[] = {
     QMetaType::Void,
     QMetaType::Void, 0x80000000 | 12,   13,
     QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,   16,
+    QMetaType::Void, QMetaType::QString,   16,
+    QMetaType::Void, QMetaType::QString,   16,
+    QMetaType::Void, QMetaType::QString,   16,
+    QMetaType::Void, QMetaType::Bool,   21,
     QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,   20,
-    QMetaType::Void, QMetaType::Bool,   22,
-    QMetaType::Void,
-    QMetaType::Void, QMetaType::Bool,   22,
+    QMetaType::Void, QMetaType::Bool,   21,
     QMetaType::Void,
     QMetaType::Void,
 
@@ -140,16 +137,15 @@ void Component::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         case 4: _t->set_index_data(); break;
         case 5: _t->closeEvent((*reinterpret_cast< QCloseEvent*(*)>(_a[1]))); break;
         case 6: _t->change_layouts(); break;
-        case 7: _t->on_le_1_editingFinished(); break;
-        case 8: _t->on_le_2_editingFinished(); break;
-        case 9: _t->on_le_3_editingFinished(); break;
-        case 10: _t->on_le_4_editingFinished(); break;
-        case 11: _t->on_le_1_textEdited((*reinterpret_cast< const QString(*)>(_a[1]))); break;
-        case 12: _t->on_cb_m_n_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 13: _t->on_pb_cancel_clicked(); break;
-        case 14: _t->on_cb_oldnum_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 15: _t->on_pb_ok_clicked(); break;
-        case 16: _t->on_le_1_inputRejected(); break;
+        case 7: _t->on_le_1_textEdited((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 8: _t->on_le_2_textEdited((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 9: _t->on_le_3_textEdited((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 10: _t->on_le_4_textEdited((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 11: _t->on_cb_m_n_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 12: _t->on_pb_cancel_clicked(); break;
+        case 13: _t->on_cb_oldnum_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 14: _t->on_pb_ok_clicked(); break;
+        case 15: _t->on_le_1_inputRejected(); break;
         default: ;
         }
     }
@@ -180,13 +176,13 @@ int Component::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 17)
+        if (_id < 16)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 17;
+        _id -= 16;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 17)
+        if (_id < 16)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 17;
+        _id -= 16;
     }
     return _id;
 }

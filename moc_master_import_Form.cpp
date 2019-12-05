@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Master_import_form_t {
-    QByteArrayData data[8];
-    char stringdata0[106];
+    QByteArrayData data[9];
+    char stringdata0[111];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -37,13 +37,14 @@ QT_MOC_LITERAL(2, 32, 0), // ""
 QT_MOC_LITERAL(3, 33, 8), // "filename"
 QT_MOC_LITERAL(4, 42, 8), // "password"
 QT_MOC_LITERAL(5, 51, 6), // "folder"
-QT_MOC_LITERAL(6, 58, 21), // "on_pushButton_clicked"
-QT_MOC_LITERAL(7, 80, 25) // "on_pb_directory_2_clicked"
+QT_MOC_LITERAL(6, 58, 4), // "of_t"
+QT_MOC_LITERAL(7, 63, 21), // "on_pushButton_clicked"
+QT_MOC_LITERAL(8, 85, 25) // "on_pb_directory_2_clicked"
 
     },
     "Master_import_form\0TESTING_open\0\0"
-    "filename\0password\0folder\0on_pushButton_clicked\0"
-    "on_pb_directory_2_clicked"
+    "filename\0password\0folder\0of_t\0"
+    "on_pushButton_clicked\0on_pb_directory_2_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -61,14 +62,14 @@ static const uint qt_meta_data_Master_import_form[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    3,   29,    2, 0x06 /* Public */,
+       1,    4,   29,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       6,    0,   36,    2, 0x08 /* Private */,
-       7,    0,   37,    2, 0x08 /* Private */,
+       7,    0,   38,    2, 0x08 /* Private */,
+       8,    0,   39,    2, 0x08 /* Private */,
 
  // signals: parameters
-    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::Bool,    3,    4,    5,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::Bool, QMetaType::Bool,    3,    4,    5,    6,
 
  // slots: parameters
     QMetaType::Void,
@@ -83,7 +84,7 @@ void Master_import_form::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
         Master_import_form *_t = static_cast<Master_import_form *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->TESTING_open((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3]))); break;
+        case 0: _t->TESTING_open((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3])),(*reinterpret_cast< bool(*)>(_a[4]))); break;
         case 1: _t->on_pushButton_clicked(); break;
         case 2: _t->on_pb_directory_2_clicked(); break;
         default: ;
@@ -91,7 +92,7 @@ void Master_import_form::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (Master_import_form::*)(QString , QString , bool );
+            using _t = void (Master_import_form::*)(QString , QString , bool , bool );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Master_import_form::TESTING_open)) {
                 *result = 0;
                 return;
@@ -137,9 +138,9 @@ int Master_import_form::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void Master_import_form::TESTING_open(QString _t1, QString _t2, bool _t3)
+void Master_import_form::TESTING_open(QString _t1, QString _t2, bool _t3, bool _t4)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_WARNING_POP

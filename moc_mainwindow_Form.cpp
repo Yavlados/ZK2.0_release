@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[66];
-    char stringdata0[1153];
+    QByteArrayData data[67];
+    char stringdata0[1158];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -66,38 +66,39 @@ QT_MOC_LITERAL(30, 466, 32), // "on_action_official_tel_triggered"
 QT_MOC_LITERAL(31, 499, 25), // "on_actionexport_triggered"
 QT_MOC_LITERAL(32, 525, 14), // "testing_export"
 QT_MOC_LITERAL(33, 540, 15), // "testing_opening"
-QT_MOC_LITERAL(34, 556, 26), // "on_action_import_triggered"
-QT_MOC_LITERAL(35, 583, 28), // "on_action_Settings_triggered"
-QT_MOC_LITERAL(36, 612, 9), // "next_page"
-QT_MOC_LITERAL(37, 622, 13), // "previous_page"
-QT_MOC_LITERAL(38, 636, 9), // "set_fonts"
-QT_MOC_LITERAL(39, 646, 18), // "add_splitter_lines"
-QT_MOC_LITERAL(40, 665, 26), // "on_tabWidget_tabBarClicked"
-QT_MOC_LITERAL(41, 692, 32), // "on_tabWidget_2_tabCloseRequested"
-QT_MOC_LITERAL(42, 725, 25), // "on_action_add_1_triggered"
-QT_MOC_LITERAL(43, 751, 25), // "on_action_2_upd_triggered"
-QT_MOC_LITERAL(44, 777, 25), // "on_action_3_del_triggered"
-QT_MOC_LITERAL(45, 803, 26), // "on_action_5_show_triggered"
-QT_MOC_LITERAL(46, 830, 20), // "open_confluence_form"
-QT_MOC_LITERAL(47, 851, 7), // "cnfl_cr"
-QT_MOC_LITERAL(48, 859, 9), // "main_crud"
-QT_MOC_LITERAL(49, 869, 8), // "added_cr"
-QT_MOC_LITERAL(50, 878, 16), // "set_normal_width"
-QT_MOC_LITERAL(51, 895, 4), // "size"
-QT_MOC_LITERAL(52, 900, 14), // "header_clicked"
-QT_MOC_LITERAL(53, 915, 2), // "id"
-QT_MOC_LITERAL(54, 918, 30), // "on_action_4_analysis_triggered"
-QT_MOC_LITERAL(55, 949, 21), // "on_action_6_triggered"
-QT_MOC_LITERAL(56, 971, 21), // "on_action_8_triggered"
-QT_MOC_LITERAL(57, 993, 21), // "on_action_9_triggered"
-QT_MOC_LITERAL(58, 1015, 22), // "on_action_10_triggered"
-QT_MOC_LITERAL(59, 1038, 22), // "on_action_12_triggered"
-QT_MOC_LITERAL(60, 1061, 22), // "on_action_13_triggered"
-QT_MOC_LITERAL(61, 1084, 13), // "keyPressEvent"
-QT_MOC_LITERAL(62, 1098, 10), // "QKeyEvent*"
-QT_MOC_LITERAL(63, 1109, 5), // "event"
-QT_MOC_LITERAL(64, 1115, 22), // "on_tableView_3_clicked"
-QT_MOC_LITERAL(65, 1138, 14) // "find_linked_zk"
+QT_MOC_LITERAL(34, 556, 4), // "of_t"
+QT_MOC_LITERAL(35, 561, 26), // "on_action_import_triggered"
+QT_MOC_LITERAL(36, 588, 28), // "on_action_Settings_triggered"
+QT_MOC_LITERAL(37, 617, 9), // "next_page"
+QT_MOC_LITERAL(38, 627, 13), // "previous_page"
+QT_MOC_LITERAL(39, 641, 9), // "set_fonts"
+QT_MOC_LITERAL(40, 651, 18), // "add_splitter_lines"
+QT_MOC_LITERAL(41, 670, 26), // "on_tabWidget_tabBarClicked"
+QT_MOC_LITERAL(42, 697, 32), // "on_tabWidget_2_tabCloseRequested"
+QT_MOC_LITERAL(43, 730, 25), // "on_action_add_1_triggered"
+QT_MOC_LITERAL(44, 756, 25), // "on_action_2_upd_triggered"
+QT_MOC_LITERAL(45, 782, 25), // "on_action_3_del_triggered"
+QT_MOC_LITERAL(46, 808, 26), // "on_action_5_show_triggered"
+QT_MOC_LITERAL(47, 835, 20), // "open_confluence_form"
+QT_MOC_LITERAL(48, 856, 7), // "cnfl_cr"
+QT_MOC_LITERAL(49, 864, 9), // "main_crud"
+QT_MOC_LITERAL(50, 874, 8), // "added_cr"
+QT_MOC_LITERAL(51, 883, 16), // "set_normal_width"
+QT_MOC_LITERAL(52, 900, 4), // "size"
+QT_MOC_LITERAL(53, 905, 14), // "header_clicked"
+QT_MOC_LITERAL(54, 920, 2), // "id"
+QT_MOC_LITERAL(55, 923, 30), // "on_action_4_analysis_triggered"
+QT_MOC_LITERAL(56, 954, 21), // "on_action_6_triggered"
+QT_MOC_LITERAL(57, 976, 21), // "on_action_8_triggered"
+QT_MOC_LITERAL(58, 998, 21), // "on_action_9_triggered"
+QT_MOC_LITERAL(59, 1020, 22), // "on_action_10_triggered"
+QT_MOC_LITERAL(60, 1043, 22), // "on_action_12_triggered"
+QT_MOC_LITERAL(61, 1066, 22), // "on_action_13_triggered"
+QT_MOC_LITERAL(62, 1089, 13), // "keyPressEvent"
+QT_MOC_LITERAL(63, 1103, 10), // "QKeyEvent*"
+QT_MOC_LITERAL(64, 1114, 5), // "event"
+QT_MOC_LITERAL(65, 1120, 22), // "on_tableView_3_clicked"
+QT_MOC_LITERAL(66, 1143, 14) // "find_linked_zk"
 
     },
     "MainWindow\0Send_data\0\0Crud*\0cr\0index\0"
@@ -115,7 +116,7 @@ QT_MOC_LITERAL(65, 1138, 14) // "find_linked_zk"
     "set_validators\0on_tabWidget_tabCloseRequested\0"
     "on_action_official_tel_triggered\0"
     "on_actionexport_triggered\0testing_export\0"
-    "testing_opening\0on_action_import_triggered\0"
+    "testing_opening\0of_t\0on_action_import_triggered\0"
     "on_action_Settings_triggered\0next_page\0"
     "previous_page\0set_fonts\0add_splitter_lines\0"
     "on_tabWidget_tabBarClicked\0"
@@ -175,32 +176,32 @@ static const uint qt_meta_data_MainWindow[] = {
       30,    0,  305,    2, 0x08 /* Private */,
       31,    0,  306,    2, 0x08 /* Private */,
       32,    5,  307,    2, 0x08 /* Private */,
-      33,    3,  318,    2, 0x08 /* Private */,
-      34,    0,  325,    2, 0x08 /* Private */,
-      35,    0,  326,    2, 0x08 /* Private */,
-      36,    0,  327,    2, 0x08 /* Private */,
-      37,    0,  328,    2, 0x08 /* Private */,
-      38,    0,  329,    2, 0x08 /* Private */,
-      39,    0,  330,    2, 0x08 /* Private */,
-      40,    1,  331,    2, 0x08 /* Private */,
-      41,    1,  334,    2, 0x08 /* Private */,
-      42,    0,  337,    2, 0x08 /* Private */,
-      43,    0,  338,    2, 0x08 /* Private */,
-      44,    0,  339,    2, 0x08 /* Private */,
-      45,    0,  340,    2, 0x08 /* Private */,
-      46,    3,  341,    2, 0x08 /* Private */,
-      50,    1,  348,    2, 0x08 /* Private */,
-      52,    1,  351,    2, 0x08 /* Private */,
-      54,    0,  354,    2, 0x08 /* Private */,
-      55,    0,  355,    2, 0x08 /* Private */,
-      56,    0,  356,    2, 0x08 /* Private */,
-      57,    0,  357,    2, 0x08 /* Private */,
-      58,    0,  358,    2, 0x08 /* Private */,
-      59,    0,  359,    2, 0x08 /* Private */,
-      60,    0,  360,    2, 0x08 /* Private */,
-      61,    1,  361,    2, 0x08 /* Private */,
-      64,    1,  364,    2, 0x08 /* Private */,
-      65,    0,  367,    2, 0x08 /* Private */,
+      33,    4,  318,    2, 0x08 /* Private */,
+      35,    0,  327,    2, 0x08 /* Private */,
+      36,    0,  328,    2, 0x08 /* Private */,
+      37,    0,  329,    2, 0x08 /* Private */,
+      38,    0,  330,    2, 0x08 /* Private */,
+      39,    0,  331,    2, 0x08 /* Private */,
+      40,    0,  332,    2, 0x08 /* Private */,
+      41,    1,  333,    2, 0x08 /* Private */,
+      42,    1,  336,    2, 0x08 /* Private */,
+      43,    0,  339,    2, 0x08 /* Private */,
+      44,    0,  340,    2, 0x08 /* Private */,
+      45,    0,  341,    2, 0x08 /* Private */,
+      46,    0,  342,    2, 0x08 /* Private */,
+      47,    3,  343,    2, 0x08 /* Private */,
+      51,    1,  350,    2, 0x08 /* Private */,
+      53,    1,  353,    2, 0x08 /* Private */,
+      55,    0,  356,    2, 0x08 /* Private */,
+      56,    0,  357,    2, 0x08 /* Private */,
+      57,    0,  358,    2, 0x08 /* Private */,
+      58,    0,  359,    2, 0x08 /* Private */,
+      59,    0,  360,    2, 0x08 /* Private */,
+      60,    0,  361,    2, 0x08 /* Private */,
+      61,    0,  362,    2, 0x08 /* Private */,
+      62,    1,  363,    2, 0x08 /* Private */,
+      65,    1,  366,    2, 0x08 /* Private */,
+      66,    0,  369,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Int,    4,    5,
@@ -229,7 +230,7 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::Bool, QMetaType::Bool, QMetaType::Bool,    2,    2,    2,    2,    2,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::Bool,    2,    2,    2,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::Bool, QMetaType::Bool,    2,    2,    2,   34,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -242,9 +243,9 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 3, 0x80000000 | 3, 0x80000000 | 3,   47,   48,   49,
-    QMetaType::Void, QMetaType::Int,   51,
-    QMetaType::Void, QMetaType::Int,   53,
+    QMetaType::Void, 0x80000000 | 3, 0x80000000 | 3, 0x80000000 | 3,   48,   49,   50,
+    QMetaType::Void, QMetaType::Int,   52,
+    QMetaType::Void, QMetaType::Int,   54,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -252,7 +253,7 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 62,   63,
+    QMetaType::Void, 0x80000000 | 63,   64,
     QMetaType::Void, 0x80000000 | 11,    5,
     QMetaType::Void,
 
@@ -289,7 +290,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 21: _t->on_action_official_tel_triggered(); break;
         case 22: _t->on_actionexport_triggered(); break;
         case 23: _t->testing_export((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3])),(*reinterpret_cast< bool(*)>(_a[4])),(*reinterpret_cast< bool(*)>(_a[5]))); break;
-        case 24: _t->testing_opening((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3]))); break;
+        case 24: _t->testing_opening((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3])),(*reinterpret_cast< bool(*)>(_a[4]))); break;
         case 25: _t->on_action_import_triggered(); break;
         case 26: _t->on_action_Settings_triggered(); break;
         case 27: _t->next_page(); break;
